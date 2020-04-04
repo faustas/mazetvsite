@@ -1,9 +1,24 @@
-# Test Project
+# Maze TV API test project for next.js
 
-Start
+This little test project is just for learning purpposes and to try some techniques.
+
+## Commands
+
+Some commands for the work with next.js
+
+### General
+
+Start a completely new project with initialization:
 ```shell script
 npm init -y
 ```
+
+Upgrade the npm:
+```shell script
+sudo npm install -g npm
+```
+
+### Project commands
 
 Minimum for the app
 ```shell script
@@ -15,12 +30,7 @@ Fetching
 npm install --save isomorphic-unfetch
 ```
 
-Upgrade the npm:
-```shell script
-sudo npm install -g npm
-```
-
-Start the project:
+Start the project in dev mode:
 ```shell script
 npm run dev
 ```
