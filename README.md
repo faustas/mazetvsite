@@ -8,6 +8,16 @@ Some commands for the work with next.js
 
 ### General
 
+Create a .npmrc in you home folder and add:
+```shell script
+prefix=~/.npm
+```
+
+Add the new folder to the path in your shell (.zshrc, .bashrc, .profile)
+```shell script
+export PATH="$HOME/.npm/bin:$PATH"
+```
+
 Start a completely new project with initialization:
 ```shell script
 npm init -y

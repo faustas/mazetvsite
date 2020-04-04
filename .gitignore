@@ -15,3 +15,5 @@ yarn-error.log*
 *.ipr
 *.iws
 *.idea/
+# Files
+todo.txt
