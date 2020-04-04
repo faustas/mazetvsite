@@ -8,7 +8,7 @@ Some commands for the work with next.js
 
 ### General
 
-Create a .npmrc in you home folder and add:
+To avoid installing the modules globally, you should add a .npmrc in you home folder and add the following line. This installs the modules into the folder defined by the prefix.
 ```shell script
 prefix=~/.npm
 ```
@@ -25,7 +25,7 @@ npm init -y
 
 Upgrade the npm:
 ```shell script
-sudo npm install -g npm
+npm install -g npm
 ```
 
 ### Project commands
