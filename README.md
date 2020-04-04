@@ -15,7 +15,7 @@ npm init -y
 
 Upgrade the npm:
 ```shell script
-sudo npm install npm
+sudo npm install -g npm
 ```
 
 ### Project commands
