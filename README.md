@@ -40,6 +40,11 @@ Fetching
 npm install --save isomorphic-unfetch
 ```
 
+SASS Support
+```shell script
+npm install --save sass
+```
+
 Start the project in dev mode:
 ```shell script
 npm run dev

@@ -1,10 +1,13 @@
 import Layout from '../../../components/MyLayout';
+import H1 from '../../../components/H1';
 import fetch from 'isomorphic-unfetch';
+import css from "../../../styles/item.module.scss"
 
 const Post = props => (
   <Layout>
-    <h1>{props.show.name}</h1>
-    <p>{props.show.summary.replace(/<[/]?[pb]>/g, '')}</p>
+    <H1 text={props.show.name}/>
+    {/*<h1 className={boldString}>{props.show.name}</h1>*/}
+    <p className={css.boldString}>{props.show.summary.replace(/<[/]?[pb]>/g, '')}</p>
     {props.show.image ? <img src={props.show.image.medium} /> : null}
   </Layout>
 )
