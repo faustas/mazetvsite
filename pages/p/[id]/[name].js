@@ -5,8 +5,7 @@ import css from "../../../styles/item.module.scss"
 
 const Post = props => (
   <Layout>
-    <H1 text={props.show.name}/>
-    {/*<h1 className={boldString}>{props.show.name}</h1>*/}
+    <H1 css={css.boldString} text={props.show.name}/>
     <p className={css.boldString}>{props.show.summary.replace(/<[/]?[pb]>/g, '')}</p>
     {props.show.image ? <img src={props.show.image.medium} /> : null}
   </Layout>
