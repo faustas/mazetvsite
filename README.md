@@ -1,6 +1,10 @@
 # Maze TV API test project for next.js
 
-This little test project is just for learning purpposes and to try some techniques.
+This little test project is just for learning purposes and to try some techniques. The main idea is bas
+ed on the introduction from the next.js website.
+
+Some additional ideas have been added like:
+- SASS support 
 
 ## Commands
 
@@ -28,7 +32,9 @@ Upgrade the npm:
 npm install -g npm
 ```
 
-### Project commands
+### Project dependecies
+
+The following dependecies have been installed.
 
 Minimum for the app
 ```shell script
@@ -45,7 +51,10 @@ SASS Support
 npm install --save sass
 ```
 
+### Running the project
+
 Start the project in dev mode:
 ```shell script
 npm run dev
 ```
+
