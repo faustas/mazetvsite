@@ -12,7 +12,7 @@ Some commands for the work with next.js
 
 ### General
 
-To avoid installing the modules globally, you should add a .npmrc in you home folder and add the following line. This installs the modules into the folder defined by the prefix.
+To avoid installing the modules globally, you should add a .npmrc in your home folder and add the following line. This installs the modules into the folder defined by the prefix.
 ```shell script
 prefix=~/.npm
 ```
