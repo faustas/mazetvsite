@@ -27,6 +27,11 @@ Start a completely new project with initialization:
 npm init -y
 ```
 
+Update the dependency packages:
+```shell script
+npm update
+```
+
 Upgrade the npm:
 ```shell script
 npm install -g npm
